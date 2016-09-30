@@ -1,0 +1,65 @@
+Compression ratio:
+  value: 13
+Connecting rod to crank radius ratio:
+  value: 4.44
+Cylinder bore:
+  units: m
+  value: 0.0828
+Cylinder gas Const.:
+  value: 2.28
+Displacement volume:
+  units: m
+  value: 0.000616
+Fuel names:
+- FACE_D_Reduced_Daly
+Fuel species:
+- - CPT
+  - NC7H16
+  - C6H5CH3
+  - O-XYL
+  - IC5H12
+  - IC6H14
+  - IC8H18
+Mechanism: FACE_D_Reduced_mech_sk.cti
+Nu Const. A:
+  value: 0.035
+Nu Const. B:
+  value: 0.8
+Nu Const. C:
+  value: 0.0
+Number of cores:
+  value: 10
+Phi:
+  Initial: 0.15
+  final: 0.45
+  step: 0.01
+Prandtl number:
+  value: 0.7
+Pressure:
+  units: Pa
+  value: 100000
+Print progress to cmd:
+  value: 10000
+RPM:
+  Initial: 800.0
+  final: 3100.0
+  step: 100
+RPM range:
+  value: 286
+Species mole fractions:
+- - 0.0689388
+  - 0.0858836
+  - 0.0808812
+  - 0.300643
+  - 0.161949
+  - 0.0769644
+  - 0.22474
+Temperature:
+  Initial: 350
+  final: 570
+  step: 20
+  units: K
+Wall temperature:
+  units: K
+  value: 430
+Working directory: C:\Users\Daly\Documents\Python Scripts\
