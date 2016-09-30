@@ -1,4 +1,5 @@
 # HCCI-Parallel-
+Requires Python 3.X
 Cantera-based Homogeneous Charge Compression Ignition simulator with parallel processing for large parametric studies
 
 This code performs 0-D HCCI simulations. The user specifies the chemical mechanism, initial conditions (Temperature, pressure, fuel species, etc.) and the simulations are performed in parallel. 
