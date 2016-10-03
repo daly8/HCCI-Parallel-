@@ -32,8 +32,3 @@ data = {'Fuel names': ['FACE_D_Reduced_Daly'],
 
 with open('HCCI_LTC_data.yml', 'w') as outfile:
     yaml.dump(data, outfile, default_flow_style=False)
-    
-#reading file
-#f = open('HCCI_LTC_data.yml')
-#dataMap = yaml.load(f)
-#f.close()
