@@ -5,6 +5,9 @@ Cantera-based Homogeneous Charge Compression Ignition simulator with parallel pr
 
 This code performs 0-D HCCI simulations. The user specifies the chemical mechanism, initial conditions (Temperature, pressure, fuel species, etc.) and the simulations are performed in parallel. 
 
+To set up initial conditions, engine parameters, etc., open the *.yml file in a text editor such as Notepad++ and input the relevent parameters (see list below), or edit HCCI_LTC_YAML.py and create a new *.yml file.  The *.yml file is read by HCCI_LTC_Vxx.py. 
+To run the simulations:  python HCCI_LTC_V3.1.py 
+
 If the simulation is ever interrupted, simply restart it and the cases that were previously completed will be skipped (so long as you are working in the same directory as before)
 
 To set up initial conditions, engine and fuel parameters, heat tranfer constants, etc., open up HCCI_LTC_data.yml and input your values.  Otherwise, from the command line you can enter the argument "--interactive_input" and you can enter all the parameters in the command line.
